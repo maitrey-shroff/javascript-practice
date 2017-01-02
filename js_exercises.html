@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title> JS Examples</title>
+  </head>
+
+  <body>
+    Here are some JS examples!
+
+
+
+    <script>
+
+    // for (var i = 10; i > -1; i--)
+    // {
+    //   console.log(i);
+    // };
+    // console.log("Blast off!");
+
+    // var numbers = [5, 23, 98, 234, 1, 0, 3, 177];
+    // var total = 0;
+
+    // for (var i = 0; i < numbers.length; i++)
+    // {
+    //   total = total + numbers[i];
+    // }
+
+    // var average = total/(numbers.length);
+    // console.log(average);
+
+    // for (var i = 1; i < 101; i++)
+    // {
+    //   if (i%5 == 0)
+    //   {
+    //     if (i%3 == 0)
+    //     {
+    //       console.log("FizzBuzz")
+    //     }
+    //     else
+    //     {
+    //       console.log("Fizz")
+    //     }
+    //   }
+    //   else if (i%3 == 0)
+    //   {
+    //     console.log("Buzz")
+    //   }
+    //   else
+    //   {
+    //     console.log(i)
+    //   }
+    // }
+
+
+    // function Car(model, year, miles)
+    // {
+    //   this.model = model;
+    //   this.year = year;
+    //   this.miles = miles;
+
+    //   this.printMessage = function()
+    //   {
+    //     return this.model + ", " + this.year;
+    //   }
+    // }
+
+    // var civic = new Car("Honda Civic", 2015, 10000);
+    // console.log(civic.model);
+    // console.log(civic.printMessage());
+
+
+    // var num1 = prompt("enter first number");
+    // var num2 = prompt("enter second number");
+
+    // num1 = parseInt(num1);
+    // num2 = parseInt(num2);
+
+    // function sum(num1, num2)
+    // {
+    //   return num1 + num2;
+    // }
+
+    // console.log(sum(num1, num2));
+
+    var array = []
+
+    for (var i = 0; i <5; i++)
+    {
+      var num = prompt("enter a number");
+      num = parseInt(num);
+      array.push(num)
+    }
+
+    function average(numbers)
+    {
+      var total = 0;
+      for (var i = 0; i < numbers.length; i++)
+      {
+      total = total + numbers[i];
+      }
+      console.log(numbers)
+      var avg = total/numbers.length;
+      console.log(avg);
+      return avg;
+    }
+
+    console.log(average(array));
+
+    // var num1 = prompt("enter first number");
+    // var num2 = prompt("enter second number");
+
+    // num1 = parseInt(num1);
+    // num2 = parseInt(num2);
+
+    // function sum(num1, num2)
+    // {
+    //   return num1 + num2;
+    // }
+
+    // console.log(sum(num1, num2));
+
+
+
+
+    </script>
+
+
+
+
+  </body>
+
+</html>
